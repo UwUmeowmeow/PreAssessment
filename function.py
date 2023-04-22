@@ -1,6 +1,11 @@
-def printname(name):
-    print(f"Your name is {name}")
+def printname(message, name):
+    print(f"{message} {name}")
 
 
 me = input("Your name: ")
-printname(me)
+printname("hello!", me)
+printname(me, "you are")
+
+
+
+# name = me 
